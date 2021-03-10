@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.FigureMenuController">
+   <children>
+      <Text fill="#e42b2b" layoutX="211.0" layoutY="73.0" strokeType="OUTSIDE" strokeWidth="0.0" text="CHOOSE FIGURE" wrappingWidth="227.0">
+         <font>
+            <Font name="FangSong" size="28.0" />
+         </font>
+      </Text>
+      <ImageView fx:id="Kolko" fitHeight="80.0" fitWidth="100.0" layoutX="58.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../62261023_2231368490273311_6260900752252731392_n.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Pilka" fitHeight="80.0" fitWidth="100.0" layoutX="186.0" layoutY="160.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Soccer_ball_animated.svg.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Kwadrat" fitHeight="80.0" fitWidth="100.0" layoutX="324.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../kwadrat.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="Trojkat" fitHeight="80.0" fitWidth="100.0" layoutX="464.0" layoutY="158.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../teatr-trojkat.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="BackButton" layoutX="269.0" layoutY="310.0" mnemonicParsing="false" prefHeight="37.0" prefWidth="63.0" text="BACK" />
+   </children>
+</AnchorPane>

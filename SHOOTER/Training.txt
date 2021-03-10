@@ -1,0 +1,11 @@
+#Plik opisujący poziom gry.
+NazwaPoziomu=SILVER
+CzasWidocznościObiektuNaPlanszy=1000.0
+PrzerwaPoZestrzeleniuObiektu=1400.0
+PrędkośćPrzemieszczaniaSięObiektu=30.0
+CzasTrwaniaPoziomu=0
+IlośćAmunicji=0
+IlośćPunktówZaTrafienie=0
+NumerPoziomu=0
+IlośćPunktówDoAwansu=0
+

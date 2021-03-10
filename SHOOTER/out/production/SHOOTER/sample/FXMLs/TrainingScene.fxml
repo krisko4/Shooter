@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<SplitPane fx:id="pane" dividerPositions="0.2562814070351759" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" orientation="VERTICAL" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.GameSceneController">
+  <items>
+    <AnchorPane fx:id="anchorPane1" minHeight="0.0" minWidth="0.0" prefHeight="100.0" prefWidth="600.0">
+         <children>
+            <Text layoutX="38.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NICKNAME:" wrappingWidth="82.13671875" />
+            <Text layoutX="152.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="SCORE:" wrappingWidth="82.13671875" />
+            <Text layoutX="258.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AMMO:" wrappingWidth="82.13671875" />
+            <Text layoutX="372.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="TIME:" wrappingWidth="82.13671875" />
+            <Text layoutX="478.0" layoutY="37.0" strokeType="OUTSIDE" strokeWidth="0.0" text="LEVEL:" wrappingWidth="82.13671875" />
+            <Label fx:id="NicknameLabel" layoutX="29.0" layoutY="40.0" prefHeight="17.0" prefWidth="82.0" />
+            <Label fx:id="LevelLabel" layoutX="478.0" layoutY="40.0" prefHeight="17.0" prefWidth="32.0" />
+            <Label fx:id="ScoreLabel" layoutX="152.0" layoutY="40.0" prefHeight="17.0" prefWidth="32.0" />
+            <Label fx:id="AmmoLabel" layoutX="258.0" layoutY="40.0" prefHeight="17.0" prefWidth="32.0" />
+            <Label fx:id="TimeLabel" layoutX="372.0" layoutY="40.0" prefHeight="17.0" prefWidth="32.0" />
+         </children></AnchorPane>
+    <AnchorPane fx:id="anchorPane2" minHeight="0.0" minWidth="0.0" prefHeight="500.0" prefWidth="600.0" />
+  </items>
+   <cursor>
+      <Cursor fx:constant="CROSSHAIR" />
+   </cursor>
+</SplitPane>

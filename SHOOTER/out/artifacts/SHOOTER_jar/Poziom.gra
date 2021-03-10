@@ -1,0 +1,11 @@
+#Plik opisujący poziom gry.
+NazwaPoziomu=GOLD
+CzasWidocznościObiektuNaPlanszy=780.0
+PrzerwaPoZestrzeleniuObiektu=1092.0
+PrędkośćPrzemieszczaniaSięObiektu=23.400000000000002
+CzasTrwaniaPoziomu=35
+IlośćAmunicji=35
+IlośćPunktówZaTrafienie=10
+NumerPoziomu=1
+IlośćPunktówDoAwansu=50
+

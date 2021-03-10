@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1620.2081944444444" y="1016.5">sample.GlobalLevel</node>
+    <node x="0.0" y="1016.5">sample.TrainingStage</node>
+    <node x="693.0" y="1157.0">sample.Main</node>
+    <node x="884.7081944444444" y="606.0">sample.TrainingSceneController</node>
+    <node x="355.0" y="1157.0">sample.PIN</node>
+    <node x="2143.2081944444444" y="650.0">sample.LevelChooserController</node>
+    <node x="2107.2081944444444" y="1016.5">sample.SilverLevel</node>
+    <node x="1955.2081944444444" y="1016.5">sample.GoldLevel</node>
+    <node x="1259.4581944444444" y="0.0">sample.Controller</node>
+    <node x="2262.2081944444444" y="1016.5">sample.EagleLevel</node>
+    <node x="1781.2081944444444" y="1016.5">sample.SupremeLevel</node>
+    <node x="45.25" y="694.0">sample.AnyStage</node>
+    <node x="2421.2081944444444" y="694.0">sample.EscapeMenuController</node>
+    <node x="606.7081944444444" y="672.0">sample.StartMenuController</node>
+    <node x="328.7081944444444" y="617.0">sample.GameSceneController</node>
+    <node x="173.0" y="1016.5">sample.GameStage</node>
+    <node x="1540.9581944444444" y="683.0">sample.EnterYourNicknameController</node>
+    <node x="1186.2081944444444" y="994.0">sample.TriangleManager</node>
+    <node x="1262.9581944444444" y="727.0">sample.SettingsMenuController</node>
+    <node x="861.2081944444444" y="972.0">sample.CircleManager</node>
+    <node x="1919.2081944444444" y="683.0">sample.Level</node>
+    <node x="0.0" y="1157.0">sample.GeneratorPlikuParametrycznegoGry</node>
+    <node x="427.8331944444444" y="994.0">sample.RectangleManager</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="sample.EscapeMenuController" target="sample.Controller">
+      <point x="0.0" y="-70.0" />
+      <point x="2550.2081944444444" y="556.0" />
+      <point x="1509.7359722222222" y="556.0" />
+      <point x="117.77777777777783" y="268.0" />
+    </edge>
+    <edge source="sample.GameSceneController" target="sample.Controller">
+      <point x="0.0" y="-147.0" />
+      <point x="457.7081944444444" y="566.0" />
+      <point x="1303.6248611111112" y="566.0" />
+      <point x="-88.33333333333326" y="268.0" />
+    </edge>
+    <edge source="sample.GlobalLevel" target="sample.Level">
+      <point x="0.0" y="-25.5" />
+      <point x="1690.7081944444444" y="942.0" />
+      <point x="1939.6081944444445" y="942.0" />
+      <point x="-81.60000000000002" y="81.0" />
+    </edge>
+    <edge source="sample.SilverLevel" target="sample.Level">
+      <point x="0.0" y="-25.5" />
+      <point x="2174.7081944444444" y="952.0" />
+      <point x="2062.0081944444446" y="952.0" />
+      <point x="40.80000000000001" y="81.0" />
+    </edge>
+    <edge source="sample.TrainingStage" target="sample.AnyStage">
+      <point x="0.0" y="-25.5" />
+      <point x="76.5" y="952.0" />
+      <point x="102.5" y="952.0" />
+      <point x="-57.25" y="70.0" />
+    </edge>
+    <edge source="sample.GameStage" target="sample.AnyStage">
+      <point x="0.0" y="-25.5" />
+      <point x="243.0" y="952.0" />
+      <point x="217.0" y="952.0" />
+      <point x="57.25" y="70.0" />
+    </edge>
+    <edge source="sample.Level" target="sample.Controller">
+      <point x="0.0" y="-81.0" />
+      <point x="2021.2081944444444" y="576.0" />
+      <point x="1450.8470833333333" y="576.0" />
+      <point x="58.888888888888914" y="268.0" />
+    </edge>
+    <edge source="sample.StartMenuController" target="sample.Controller">
+      <point x="0.0" y="-92.0" />
+      <point x="735.7081944444444" y="576.0" />
+      <point x="1333.0693055555555" y="576.0" />
+      <point x="-58.888888888888914" y="268.0" />
+    </edge>
+    <edge source="sample.GoldLevel" target="sample.Level">
+      <point x="0.0" y="-25.5" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="sample.EnterYourNicknameController" target="sample.Controller">
+      <point x="-1.1368683772161603E-13" y="-81.0" />
+      <point x="1669.9581944444444" y="586.0" />
+      <point x="1421.4026388888888" y="586.0" />
+      <point x="29.444444444444343" y="268.0" />
+    </edge>
+    <edge source="sample.EagleLevel" target="sample.Level">
+      <point x="0.0" y="-25.5" />
+      <point x="2329.7081944444444" y="942.0" />
+      <point x="2102.8081944444443" y="942.0" />
+      <point x="81.60000000000002" y="81.0" />
+    </edge>
+    <edge source="sample.SupremeLevel" target="sample.Level">
+      <point x="0.0" y="-25.5" />
+      <point x="1858.2081944444444" y="952.0" />
+      <point x="1980.4081944444445" y="952.0" />
+      <point x="-40.80000000000001" y="81.0" />
+    </edge>
+    <edge source="sample.CircleManager" target="sample.TrainingSceneController">
+      <point x="0.0" y="-70.0" />
+      <point x="0.0" y="158.0" />
+    </edge>
+    <edge source="sample.TrainingSceneController" target="sample.Controller">
+      <point x="0.0" y="-158.0" />
+      <point x="1013.7081944444444" y="586.0" />
+      <point x="1362.51375" y="586.0" />
+      <point x="-29.444444444444343" y="268.0" />
+    </edge>
+    <edge source="sample.RectangleManager" target="sample.TrainingSceneController">
+      <point x="0.0" y="-48.0" />
+      <point x="617.3331944444444" y="952.0" />
+      <point x="927.7081944444444" y="952.0" />
+      <point x="-86.0" y="158.0" />
+    </edge>
+    <edge source="sample.AnyStage" target="sample.Controller">
+      <point x="0.0" y="-70.0" />
+      <point x="159.75" y="556.0" />
+      <point x="1274.1804166666666" y="556.0" />
+      <point x="-117.77777777777783" y="268.0" />
+    </edge>
+    <edge source="sample.TriangleManager" target="sample.TrainingSceneController">
+      <point x="0.0" y="-48.0" />
+      <point x="1393.2081944444444" y="952.0" />
+      <point x="1099.7081944444444" y="952.0" />
+      <point x="86.0" y="158.0" />
+    </edge>
+    <edge source="sample.LevelChooserController" target="sample.Controller">
+      <point x="0.0" y="-114.0" />
+      <point x="2272.2081944444444" y="566.0" />
+      <point x="1480.291527777778" y="566.0" />
+      <point x="88.33333333333348" y="268.0" />
+    </edge>
+    <edge source="sample.SettingsMenuController" target="sample.Controller">
+      <point x="0.0" y="-37.0" />
+      <point x="0.0" y="268.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9" x="2001.3333333333335" y="663.0" />
+  <SelectedNodes>
+    <node>sample.AnyStage</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Methods</Category>
+    <Category>Constructors</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

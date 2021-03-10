@@ -1,0 +1,11 @@
+#Plik opisujący poziom gry.
+NazwaPoziomu=GLOBAL
+CzasWidocznościObiektuNaPlanszy=370.15056000000004
+PrzerwaPoZestrzeleniuObiektu=518.210784
+PrędkośćPrzemieszczaniaSięObiektu=11.104516800000003
+CzasTrwaniaPoziomu=0
+IlośćAmunicji=0
+IlośćPunktówZaTrafienie=0
+NumerPoziomu=0
+IlośćPunktówDoAwansu=0
+

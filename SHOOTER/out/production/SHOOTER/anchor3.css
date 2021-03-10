@@ -1,0 +1,4 @@
+.anchor {
+    -fx-background-image: url("sample/plik.jpg");
+    -fx-background-size: 100% 100%;
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.MenuButton?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane onKeyPressed="#closeKeyAction" prefHeight="293.0" prefWidth="356.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.SettingsMenuController">
+   <children>
+      <MenuButton fx:id="Button" layoutX="108.0" layoutY="61.0" mnemonicParsing="false" onKeyPressed="#closeKeyAction" prefHeight="40.0" prefWidth="140.0" text="Background ">
+        <items>
+          <MenuItem fx:id="FootballPitch" mnemonicParsing="false" text="FOOTBALL PITCH" />
+          <MenuItem fx:id="TennisCourt" mnemonicParsing="false" text="TENNIS COURT" />
+            <MenuItem fx:id="Basketball" mnemonicParsing="false" text="BASKETBALL" />
+        </items>
+         <font>
+            <Font size="13.0" />
+         </font>
+      </MenuButton>
+      <Button fx:id="OKButton" layoutX="148.0" layoutY="199.0" mnemonicParsing="false" onAction="#closeButtonAction" prefHeight="40.0" prefWidth="60.0" text="OK" />
+   </children>
+</AnchorPane>

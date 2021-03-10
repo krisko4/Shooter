@@ -1,0 +1,4 @@
+Pseudonim=fss
+LiczbaPunktów=160
+Poziom=2
+
