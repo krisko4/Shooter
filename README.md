@@ -1,6 +1,10 @@
 # Shooter
 My first Java project - a simple parameterized game, implemented during my bachelor's degree studies.
 
+## Disclaimer
+The quality of code is a result of requirements provided by the lecturer and my poor experience with programming. I have not modified it on purpose ever since it was created. This is the beginning of my adventure.
+
+
 <p align="center">
   <img src="https://user-images.githubusercontent.com/80395610/138601476-443b6a80-0fbe-4607-ae74-7305efb55a8c.JPG">
     <img src="https://user-images.githubusercontent.com/80395610/138601670-352f9063-13d7-4097-9686-bd9718679aff.JPG">
@@ -9,8 +13,6 @@ My first Java project - a simple parameterized game, implemented during my bache
 
 
 
-# Disclaimer
-The quality of code is a result of requirements provided by the lecturer and my poor experience with programming. I have not modified it on purpose ever since it was created. This is the beginning of my adventure.
 
 # Technologies
 
