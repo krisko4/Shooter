@@ -2,7 +2,7 @@
 My first ever Java project - a simple parameterized game, implemented during my bachelor's degree studies.
 
 ## Disclaimer
-The quality of code is a result of requirements provided by the lecturer and my poor experience with programming. I have not modified it on purpose ever since it was created. This is the beginning of my adventure.
+The quality of code is a result of requirements provided by the lecturer and my poor experience with programming. I have not modified it on purpose ever since it was created. This is the beginning of my coding adventure.
 
 
 <p align="center">
